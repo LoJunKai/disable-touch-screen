@@ -16,7 +16,7 @@ Andddd this is such a hassle. Hence, I've created this script to do just that! E
 3. Right click on newly created shortcut > Properties > Shortcut:
     - Add `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File` in Target field, before your shortcut file path
     - Advanced > Enable "Run as Administrator" > OK
-    - Shortcut key: <press your hotkey>
+    - Shortcut key: `<press your hotkey>`  (make sure it doesn't conflict with other defined shortcuts)
     - Apply
 4. Press the defined shortcut, allow admin privileges, watch the wonder!
   
